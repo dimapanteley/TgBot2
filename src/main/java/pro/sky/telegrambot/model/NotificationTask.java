@@ -24,7 +24,7 @@ public class NotificationTask {
     private LocalDateTime scheduleDateTime;
 
     @Override
-    public boolean equals(Object o) {
+    public boolean equals(Object o) { //
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         NotificationTask that = (NotificationTask) o;
